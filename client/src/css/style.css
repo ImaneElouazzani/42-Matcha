@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+  height: 100vh;
+  width: 100%;
+  background: url("../photos/freinds.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-form {
+  border: rgb(250, 227, 194, 0) 1px solid;
+  width: 30%;
+  padding: 20px;
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  background-color: rgb(250, 227, 194, 0.4);
+  border-radius: 10px;
+}
+
+.reset-box {
+  border: rgb(250, 227, 194, 0) 1px solid;
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  background-color: rgb(250, 227, 194, 0.4);
+  border-radius: 10px;
+}
+
+#reset-text {
+  text-align: center;
+  background-color: rgba(241, 230, 216, 0.699);
+  border-radius: 10px;
+  color: rgb(145, 95, 22);
+  padding: 3px;
+}
+
+#change-text {
+  text-align: center;
+  background-color: rgba(241, 230, 216, 0.699);
+  border-radius: 10px;
+  color: rgb(145, 95, 22);
+  padding: 3px;
+}
+
+.btn-brown {
+  background-color: rgb(110, 55, 4);
+  padding: 5px;
+  border: rgb(250, 227, 194, 0) 1px solid;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: blanchedalmond;
+}
+
+.btn-brown:hover {
+  border: 1px solid blanchedalmond;
+  color: rgb(110, 55, 4);
+  background-color: rgb(250, 227, 194, 0.4);
+}
+.forgot-password {
+  color: rgb(73, 34, 3);
+}
+
+.forgot-password:hover {
+  color: rgb(73, 34, 3);
+  background-color: rgba(206, 182, 151, 0.8);
+}

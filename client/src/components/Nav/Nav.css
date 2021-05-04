@@ -1,0 +1,35 @@
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  font-size: 23px;
+  justify-content: flex-end;
+}
+
+.nav-list li {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: rgb(94, 57, 3);
+}
+
+a.current{
+  background-color: rgba(238, 228, 214, 0.8);
+}
+
+.nav-global {
+  position: absolute;
+  top: 0;
+  z-index: 25;
+  width: 100%;
+}
+
+.nav-list2 {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.nav-list2 li {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: rgb(94, 57, 3);
+}
