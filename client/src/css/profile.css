@@ -156,7 +156,9 @@
 .trash:hover{
   display: block !important;
 }
+.profile-img:hover {
+  cursor: pointer;
+}
 .card-body > img:hover + .trash {
   display: block !important;
-  
 }

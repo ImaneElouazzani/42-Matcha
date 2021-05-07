@@ -7,6 +7,7 @@ import { useState } from "react";
 import profileImg from "../photos/profile-img.jpg";
 import AddPhoto from "./AddPhoto";
 import DeleteIcon from "@material-ui/icons/Delete";
+import Location from "./Location";
 
 export default function ProfilePhotos() {
   var [imgs, setImgs] = useState([]);
@@ -53,7 +54,7 @@ export default function ProfilePhotos() {
             imgs.map((image) => (
               <div className="fortrash">
                 <img src={image} />
-              <Fab color="primary" aria-label="add" className="trash">
+                <Fab color="primary" aria-label="add" className="trash">
                   <DeleteIcon />
                 </Fab>
               </div>
@@ -62,6 +63,9 @@ export default function ProfilePhotos() {
             {imgs.length < 4 && <AddPhoto setImgs={setImgs} imgs={imgs} />}
           </div>
         </section>
+      </div>
+      <div>
+        <Location />
       </div>
     </div>
   );
